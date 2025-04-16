@@ -45,7 +45,7 @@ export default function RootLayout({
             <div className="absolute inset-0"></div>
             <div className="absolute inset-0"></div>
           </div>
-        <main className="pt-24 pl-24 flex-grow">
+        <main className="pt-24 pr-24 pl-24 flex-grow">
         {children}
         </main>
         <Footer/>
