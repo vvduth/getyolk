@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import TerminalOverlay from "./components/TerminalOverlay";
 import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
+import UserPrograms from "./components/UserProgram";
 
 const HomePage = () => {
   return (
@@ -20,14 +21,14 @@ const HomePage = () => {
                   <span className="text-foreground">Transform</span>
                 </div>
                 <div>
-                  <span className="text-primary">Your Body</span>
+                  <span className="text-sky-500">Your Body</span>
                 </div>
                 <div className="pt-2">
                   <span className="text-foreground">With Advanced</span>
                 </div>
                 <div className="pt-2">
                   <span className="text-foreground">AI</span>
-                  <span className="text-primary"> Technology</span>
+                  <span className="text-sky-500"> Technology</span>
                 </div>
               </h1>
 
@@ -115,7 +116,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
+      <UserPrograms/>
       
     </div>
   );
