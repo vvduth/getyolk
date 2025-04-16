@@ -11,6 +11,8 @@ import {
 
 import "./globals.css";
 import ConvexClerkProvider from "@/providers/ConvexClerkProvider";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,7 +40,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar/>
+        <div className="fixed inset-0 -z-1">
+            <div className="absolute inset-0"></div>
+            <div className="absolute inset-0"></div>
+          </div>
+        <main className="pt-24 pl-24 flex-grow">
         {children}
+        </main>
+        <Footer/>
       </body>
     </html>
    </ConvexClerkProvider>
