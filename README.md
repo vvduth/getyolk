@@ -23,14 +23,14 @@
 
 ## Features
 
--- **Smart AI Coach**: Chat with a voice-enabled coach that understands your training goals, injuries, and schedule.
--- **Combat-Specific Strength Workouts**: Focus on **functional, free-weight exercises** to build power, explosiveness, and mobility.
--- **Budget Meal Planning**: Personalized diets using **cheap, whole-food ingredients** — think oats, rice, beans, eggs, and seasonal produce — while minimizing the use of supplements.
--- **User Accounts**: Sign in with GitHub, Google, or email
--- **Program Manager**: Save and switch between multiple training/diet plans — only your current plan is active.
--- **Mobile-Ready UI**: Built with responsive design and modern components
+- **Smart AI Coach**: Chat with a voice-enabled coach that understands your training goals, injuries, and schedule.
+- **Combat-Specific Strength Workouts**: Focus on **functional, free-weight exercises** to build power, explosiveness, and mobility.
+- **Budget Meal Planning**: Personalized diets using **cheap, whole-food ingredients** — think oats, rice, beans, eggs, and seasonal produce — while minimizing the use of supplements.
+- **User Accounts**: Sign in with GitHub, Google, or email
+- **Program Manager**: Save and switch between multiple training/diet plans — only your current plan is active.
+- **Mobile-Ready UI**: Built with responsive design and modern components
 
----
+
 
 ## 💡 Core Philosophy
 
