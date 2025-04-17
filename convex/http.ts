@@ -150,7 +150,7 @@ http.route({
         },
       });
 
-      const workoutPrompt = `You are an experienced fitness coach creating a personalized workout plan based on:
+      const workoutPrompt = `You are an experienced strength and conditioning coach specializing in combat sports athletes, creating a personalized workout plan based on:
       Age: ${age}
       Height: ${height}
       Weight: ${weight}
@@ -163,6 +163,8 @@ http.route({
       - Consider muscle group splits to avoid overtraining the same muscles on consecutive days
       - Design exercises that match the fitness level and account for any injuries
       - Structure the workouts to specifically target the user's fitness goal
+      - Prioritize functional exercises that enhance performance in combat sports (e.g. explosiveness, core stability, grip strength, mobility)
+      - Use free weights and bodyweight movements only, no machines
       
       CRITICAL SCHEMA INSTRUCTIONS:
       - Your output MUST contain ONLY the fields specified below, NO ADDITIONAL FIELDS
